@@ -91,7 +91,7 @@ style={ 'textAlign':'center', 'color':'#503D36', 'fontSize': 24}),
                                         ),
                                         # TASK2: Add a dropdown
                                         # Enter your code below. Make sure you have correct formatting.
-                                    dcc.Dropdown(id='input_type', 
+                                    dcc.Dropdown(id='input-type', 
                                                   options= [
                                                       {'label': 'Yearly Airline Performance report', 'value': 'OPT1'},
                                                       {'label': 'Yearly Airline Delay report', 'value': 'OPT2'}
